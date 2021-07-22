@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Slider from './componets/Slider'
-import MenuContainer from './Functions/MenuContainer'
+import MenuContainer from './componets/MenuContainer'
 
 function App() {
   return (

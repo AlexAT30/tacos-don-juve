@@ -1,19 +1,19 @@
 import { Card } from "react-bootstrap"
 
-const ProductCard = () => {
+const ProductInfo = ( {name, description } ) => {
   return (
     <div>
       <Card className='mb-4' > 
         <Card.Header>
           <Card.Title>
-            Nombre del producto.
+            {name}
           </Card.Title>
         </Card.Header>
         <Card.Body>
-          Informacion del taco
+          {description}
         </Card.Body>
       </Card>
     </div>
   )
 }
-export default ProductCard;
+export default ProductInfo;

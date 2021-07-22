@@ -1,13 +1,12 @@
 import { Accordion } from 'react-bootstrap'
-import ProductCard from './ProductCard'
 
-const MenuInfo = ({ type, number }) => {
+const MenuInfo = ({ type, number, products }) => {
   return (
     <Accordion defaultActiveKey='1'>
         <Accordion.Item eventKey={number}>
           <Accordion.Header>{type}</Accordion.Header>
           <Accordion.Body>
-            <ProductCard/>
+            {products}
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

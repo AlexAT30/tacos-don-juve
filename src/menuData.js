@@ -1,87 +1,87 @@
 const menuData = [
   {
     category: 'Tacos',
-    Products: [
+    products: [
       {
         name: 'Taco de adobada',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de suadero',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de chorizo',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de tripa',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de cabeza',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de carnaza',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de labio',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de lengua',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 20
       },
       {
         name: 'Taco de sesos',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de cuerno',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de ojo',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
       {
         name: 'Taco de paladar',
-        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 12
       },
     ]
   },
   {
     category: 'Quesadillas',
-    Products: [
+    products: [
       {
         name: 'Quesadilla de adobada',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Gringa de adobada',
-        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros <br>Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 40
       },
     ]
   },
   {
     category: 'Bebidas',
-    Products: [
+    products: [
       {
         name: 'Coca-cola',
         description: 'Refresco coca-cola de vidrio de 500ml',
