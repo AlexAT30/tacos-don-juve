@@ -1,6 +1,7 @@
 import MenuInfo from './MenuInfo';
 import ProductInfo from './ProductInfo';
 import menuData from '../menuData';
+import Title from './Title';
 
 const MenuContainer = () => {
   // Pinta las categorias
@@ -12,9 +13,9 @@ const MenuContainer = () => {
     return <MenuInfo key={`C${index}`} type={item.category} number={index} products={productsList} />
   })
 
-  console.log(menuData);
   return (
     <div>
+      <Title title='menú' />
       {typeList}
     </div>
   )
