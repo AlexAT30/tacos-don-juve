@@ -2,13 +2,23 @@ import { Navbar, Nav } from "react-bootstrap"
 
 const NavBar = () => {
   return (
-    <Navbar className='bg-primary' expand="lg">
+    <Navbar className='bg-light' expand="lg" sticky='top' >
       <div className='container'>
         <Navbar.Brand className='fw-bold' >Tacos Don Juve</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link> Promociones </Nav.Link>
+            <Nav.Link> 
+              -<i className="bi bi-percent me-2"></i>
+              Promociones 
+            </Nav.Link>
+            <Nav.Link>
+              <i className="bi bi-menu-up me-2"></i>
+               Menú 
+            </Nav.Link>
+            <Nav.Link className='active' >
+              <i className="bi bi-cart me-2"></i>
+              Pedido </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>

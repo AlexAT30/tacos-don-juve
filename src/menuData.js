@@ -68,12 +68,67 @@ const menuData = [
     category: 'Quesadillas',
     products: [
       {
+        name: 'Quesadilla de suadero',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 28
+      },
+      {
+        name: 'Quesadilla de chorizo',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 28
+      },
+      {
         name: 'Quesadilla de adobada',
         description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
+        name: 'Quesadilla de tripa',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 28
+      },
+      {
+        name: 'Quesadilla de carnaza',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 28
+      },
+      {
+        name: 'Quesadilla de cabeza',
+        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 28
+      },
+    ]
+  },
+  {
+    category: 'Gringas',
+    products: [
+      {
+        name: 'Gringa de suadero',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 40
+      },
+      {
+        name: 'Gringa de chorizo',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 40
+      },
+      {
         name: 'Gringa de adobada',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 40
+      },
+      {
+        name: 'Gringa de tripa',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 40
+      },
+      {
+        name: 'Gringa de carnaza',
+        description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        price: 40
+      },
+      {
+        name: 'Gringa de cabeza',
         description: 'Gringa hecha con doble tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 40
       },
@@ -120,4 +175,4 @@ const menuData = [
     ]
   }
 ]
-export default menuData;
+export default menuData
