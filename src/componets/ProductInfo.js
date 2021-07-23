@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Card, InputGroup } from "react-bootstrap"
+import { Button, Card } from "react-bootstrap"
 
 const ProductInfo = ( {name, description, price } ) => {
   const [productsCount, setProductCount] = useState (0)
