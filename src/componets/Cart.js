@@ -13,9 +13,11 @@ const Cart = ({ products }) => {
         <ListGroup>
           {cartItems}
         </ListGroup>
-        <p className='fw-light text-center'>
+        <Card.Footer>
+        <p className='fw-light text-center' >
           Esta lista solo es para ayudarlo a organizar su pedido, para ordenar llame a su mesero.
         </p>
+        </Card.Footer>
       </Card>
 
     </div>

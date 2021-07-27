@@ -32,7 +32,7 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
                   setProducts (old => [...old, [{
                     name:`${name}`,
                     amount:`${productsCount}`,
-                    price:`${price}`,
+                    price:`${price * productsCount}`,
                   }]]) 
                 }
               }>
@@ -40,7 +40,15 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
                 {`$${price * productsCount}`}
               </Button>
               :
-              <Button>
+              <Button onClick={
+                () => {
+                  setProducts (old => [...old, [{
+                    name:`${name}`,
+                    amount: 1,
+                    price:`${price}`,
+                  }]]) 
+                }
+              }>
                 <i className="bi bi-cart-plus me-2"></i>
                 {`$${price}`}
               </Button>

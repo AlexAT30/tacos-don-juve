@@ -15,7 +15,7 @@ const MenuContainer = ({setProducts}) => {
   })
 
   return (
-    <div>
+    <div className='container-fluid'>
       <Title title='menú' />
       {typeList}
     </div>

@@ -139,37 +139,37 @@ const menuData = [
     products: [
       {
         name: 'Coca-cola',
-        description: 'Refresco coca-cola de vidrio de 500ml',
+        description: 'Refresco coca-cola de vidrio de 500ml.',
         price: 16
       },
       {
         name: 'Coca-cola chica',
-        description: 'Refresco coca-cola de vidrio de 355ml',
+        description: 'Refresco coca-cola de vidrio de 355ml.',
         price: 16
       },
       {
         name: 'Sprite',
-        description: 'Refresco sprite de vidrio de 355ml',
+        description: 'Refresco sprite de vidrio de 355ml.',
         price: 16
       },
       {
         name: 'Mirinda',
-        description: 'Refresco mirinda de vidrio de 355ml',
+        description: 'Refresco mirinda de vidrio de 355ml.',
         price: 16
       },
       {
         name: 'Manzanita',
-        description: 'Refresco manzanita de vidrio de 355ml',
+        description: 'Refresco manzanita de vidrio de 355ml.',
         price: 16
       },
       {
         name: 'Tonicol',
-        description: 'Refresco tonicol de vidrio de 355ml',
+        description: 'Refresco tonicol sabor vainilla de 355ml.',
         price: 16
       },
       {
         name: 'Agua',
-        description: 'Refresco coca-cola de vidrio de 355ml',
+        description: 'Agua fresca de sabor (sabores).',
         price: 16
       },
     ]
