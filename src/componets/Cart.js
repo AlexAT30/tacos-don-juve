@@ -1,4 +1,4 @@
-import { Card, ListGroup, ListGroupItem } from "react-bootstrap"
+import { Card, ListGroup} from "react-bootstrap"
 import CartList from "./CartList";
 import Title from "./Title";
 
