@@ -8,15 +8,15 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link> 
+            <Nav.Link href='#promotions' > 
               -<i className="bi bi-percent me-2"></i>
               Promociones 
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href='#menu' >
               <i className="bi bi-menu-up me-2"></i>
                Menú 
             </Nav.Link>
-            <Nav.Link className='active' >
+            <Nav.Link className='active' href='#cart' >
               <i className="bi bi-cart me-2"></i>
               Pedido </Nav.Link>
           </Nav>

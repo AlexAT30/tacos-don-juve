@@ -2,7 +2,7 @@ import { Accordion } from 'react-bootstrap'
 
 const MenuInfo = ({ type, number, products }) => {
   return (
-    <Accordion defaultActiveKey='1'>
+    <Accordion defaultActiveKey='1' id='menu'>
         <Accordion.Item className='bg-principal' eventKey={number}>
           <Accordion.Header>{type}</Accordion.Header>
           <Accordion.Body>

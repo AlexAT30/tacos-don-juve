@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { Button, Card } from "react-bootstrap"
 
-const ProductInfo = ( {name, description, price } ) => {
-  const [productsCount, setProductCount] = useState (0)
+const ProductInfo = ( {setProducts, name, description, price } ) => {
+  const [productsCount, setProductCount] = useState (0);
+  
 
   return (
+
     <div>
+
       <Card className='mb-4' > 
         <Card.Header>
           <Card.Title>
@@ -24,7 +27,15 @@ const ProductInfo = ( {name, description, price } ) => {
             {
               productsCount > 0
               ?
-              <Button>
+              <Button onClick={
+                () => {
+                  setProducts (old => [...old, [{
+                    name:`${name}`,
+                    amount:`${productsCount}`,
+                    price:`${price}`,
+                  }]]) 
+                }
+              }>
                 <i className="bi bi-cart-plus me-2"></i>
                 {`$${price * productsCount}`}
               </Button>
