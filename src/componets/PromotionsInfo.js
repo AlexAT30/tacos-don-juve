@@ -1,9 +1,6 @@
-import { useState } from "react";
 import { Card, Button } from "react-bootstrap";
-import { set } from "react-hook-form";
 
 const PromotionsInfo = ({ setProducts, name, description, price }) => {
-  const [add, setAdd] = useState (false);
   return (
     <div className='container-fluid'>
       <Card className='text-center m-auto mt-2 mb-4' border='primary' >
