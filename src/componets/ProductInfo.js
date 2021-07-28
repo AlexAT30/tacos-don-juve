@@ -1,13 +1,11 @@
 import { useState } from "react";
-import { Card } from "react-bootstrap";
-import './button.css'
+import { Button, Card } from "react-bootstrap"
 
 const ProductInfo = ( {setProducts, name, description, price } ) => {
   const [productsCount, setProductCount] = useState (0);
 
   return (
     <div>
-
       <Card className='mb-4' > 
         <Card.Header>
           <Card.Title>
@@ -26,7 +24,7 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
             {
               productsCount > 0
               ?
-              <button className='btn-primary addButton' onClick={
+              <Button variant='primary' onClick={
                 () => {
                   setProducts (old => [...old, [{
                     name:`${name}`,
@@ -37,20 +35,16 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
               }>
                 <i className="bi bi-cart-plus me-2"></i>
                 {`$${price * productsCount}`}
-              </button>
+              </Button>
               :
-              <button className='btn-primary addButton' variant='primary' onClick={
+              <Button variant='primary' onClick={
                 () => {
-                  setProducts (old => [...old, [{
-                    name:`${name}`,
-                    amount: 1,
-                    price:`${price}`,
-                  }]]) 
+                  alert ('debes agregar al menos uno')
                 }
               }>
                 <i className="bi bi-cart-plus me-2"></i>
                 {`$${price}`}
-              </button>
+              </Button>
             }
         </Card.Footer>
       </Card>

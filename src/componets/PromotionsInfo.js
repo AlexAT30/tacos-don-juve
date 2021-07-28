@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 
 const PromotionsInfo = ({ setProducts, name, description, price }) => {
-  const [button, setButton] = useState ('primary');
   
   return (
     <div className='container-fluid'>
@@ -16,12 +14,8 @@ const PromotionsInfo = ({ setProducts, name, description, price }) => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <Button variant={button} onClick={
+          <Button variant='primary' onClick={
                 () => {
-                  setButton ('success');
-                  setTimeout(() => {
-                    setButton ('primary');
-                  }, 500);
                   setProducts (old => [...old, [{
                     name:`${name}`,
                     amount: 1,

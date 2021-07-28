@@ -19,6 +19,9 @@ const NavBar = () => {
             <Nav.Link className='active' href='#cart' >
               <i className="bi bi-cart me-2"></i>
               Pedido </Nav.Link>
+            <Nav.Link className='active' href='#opinions' >
+            <i className="bi bi-person-check me-2"></i>
+              Opiniones </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>
