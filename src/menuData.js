@@ -172,7 +172,22 @@ const menuData = [
         description: 'Agua fresca de sabor (sabores).',
         price: 16
       },
+    ],
+  },
+  {
+    category: 'Ordenes',
+    products: [
+      {
+        name: 'Orden chica',
+        description: 'Orden de carne a escoger (adobada, suadero, chorizo, tripa, cabeza, carnaza, labio, sesos, cuerno, ojo y paladar); incluye tortillas, verdura, cebollitas, doraditas y chiles güeros, ademas de salsa de su preferencia, limones y rabanos.',
+        price: 95
+      },
+      {
+        name: 'Orden grande',
+        description: 'Orden de carne a escoger (adobada, suadero, chorizo, tripa, cabeza, carnaza, labio, sesos, cuerno, ojo y paladar); incluye tortillas, verdura, cebollitas, doraditas y chiles güeros, ademas de salsa de su preferencia, limones y rabanos.',
+        price: 120
+      },
     ]
-  }
+  },
 ]
 export default menuData

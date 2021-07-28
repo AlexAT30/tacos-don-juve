@@ -9,7 +9,14 @@ const PromotionsContainer = ({ setProducts }) => {
   return (
     <div className='container-fluid'>
       <Title title='Promociones' id='promotions' />
-      {promotionList}
+      <div style={
+        {
+          display: 'flex',
+          overflow: 'scroll',
+        }
+      }>
+        {promotionList}
+      </div>
       
     </div>
   )

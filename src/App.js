@@ -6,18 +6,20 @@ import Cart from './componets/Cart';
 import { useState } from 'react';
 import Footer from './componets/Footer';
 import PromotionsContainer from './componets/PromotionsContainer';
+import Opinions from './componets/Opinions';
 
 function App() {
 
   const [products, setProducts] = useState ([]);
 
   return (
-    <div className="App" style={{backgroundColor:'#FFF9EF'}}>
+    <div className="App">
       <NavBar />
       <Slider />
       <PromotionsContainer setProducts={setProducts} />
       <MenuContainer setProducts={setProducts} />
       <Cart products={products} />
+      <Opinions />
       <Footer />
     </div>
   );

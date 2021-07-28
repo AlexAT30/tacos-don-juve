@@ -15,8 +15,8 @@ import slider5 from '../images/slider/slider5.jpeg';
           alt="slider-img-1"
         />
         <Carousel.Caption>
-          <h3>Nombre del producto</h3>
-          <p>Pequeña descripcion.</p>
+          <h3>Tacos don Juve</h3>
+          <p>Vendiendo los mejores tacos desde 1995.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,8 +26,8 @@ import slider5 from '../images/slider/slider5.jpeg';
           alt="slider-img-2"
         />
         <Carousel.Caption>
-          <h3>Nombre del producto</h3>
-          <p>Pequeña descripcion.</p>
+          <h3>Sabias que...</h3>
+          <p>La palabra taco proviene de la palabra náhuatl "tlahco", que significa "mitad o en el medio", refiriendose a su forma.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,8 +37,8 @@ import slider5 from '../images/slider/slider5.jpeg';
           alt="slider-img-3"
         />
         <Carousel.Caption>
-          <h3>Nombre del producto</h3>
-          <p>Pequeña descripcion.</p>
+          <h3>¡Deliciosa orden de carne!</h3>
+          <p>Contamos con ordenes desde $90.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,8 +48,8 @@ import slider5 from '../images/slider/slider5.jpeg';
           alt="slider-img-4"
         />
         <Carousel.Caption>
-          <h3>Nombre del producto</h3>
-          <p>Pequeña descripcion.</p>
+          <h3>Quesadillas y Gringas</h3>
+          <p>Contamos con una amplia variedad de quesadillas y gringas de tortilla de harina.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -59,8 +59,7 @@ import slider5 from '../images/slider/slider5.jpeg';
           alt="slider-img-5"
         />
         <Carousel.Caption>
-          <h3>Nombre del producto</h3>
-          <p>Pequeña descripcion.</p>
+          <h3>Muchas gracias por su preferencia</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

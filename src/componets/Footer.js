@@ -19,18 +19,17 @@ const Footer = () => {
       <div className='row mt-3 pb-3'>
         <div className='col-6 text-center' style={{borderRight:'2px solid white'}} >
           <p className='text-white mb-2'>
-            ¿Pedido a domicilio?
+            ¿Pedido a domicilio? <br/>
+            Buscanos en Didi y Rappi
           </p>
-          <a href='https://m.facebook.com/TacoJuve/' className='link-light me-3'>Uber</a>
-          <a href='https://m.facebook.com/TacoJuve/' className='link-light'>Didi</a>
         </div>
         <div className='col-6 text-center'>
           <p className='text-white mb-2'>
             Contactanos:
           </p>
-          <a href='https://m.facebook.com/TacoJuve/' className='link-light'>
+          <a href='https://wa.link/na7ahl' className='link-light'>
             <i className="bi bi-whatsapp me-2"></i>
-            33 3333 3333
+            33 3245 4288
             </a>
         </div>
       </div>
