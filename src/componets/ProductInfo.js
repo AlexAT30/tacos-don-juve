@@ -6,9 +6,7 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
   
 
   return (
-
     <div>
-
       <Card className='mb-4' > 
         <Card.Header>
           <Card.Title>

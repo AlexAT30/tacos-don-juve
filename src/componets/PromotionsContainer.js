@@ -8,7 +8,7 @@ const PromotionsContainer = ({ setProducts }) => {
   })
   return (
     <div className='container-fluid'>
-      <Title title='Promociones' />
+      <Title title='Promociones' id='promotions' />
       {promotionList}
       
     </div>

@@ -12,7 +12,7 @@ function App() {
   const [products, setProducts] = useState ([]);
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:'#FFF9EF'}}>
       <NavBar />
       <Slider />
       <PromotionsContainer setProducts={setProducts} />

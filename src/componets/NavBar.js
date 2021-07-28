@@ -2,7 +2,7 @@ import { Navbar, Nav } from "react-bootstrap"
 
 const NavBar = () => {
   return (
-    <Navbar className='bg-light' expand="lg" sticky='top' >
+    <Navbar expand="lg" sticky='top' style={{backgroundColor:'#EBAB35'}} >
       <div className='container'>
         <Navbar.Brand className='fw-bold' >Tacos Don Juve</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

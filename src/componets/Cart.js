@@ -7,8 +7,8 @@ const Cart = ({ products }) => {
     return <CartList key={index} name={element[0].name} price={element[0].price} amount={element[0].amount} />
   })
   return (
-    <div className='container-fluid' id='cart'>
-      <Title title='Pedido' />
+    <div className='container-fluid mb-3'>
+      <Title title='Pedido' id='cart' />
       <Card>
         <ListGroup>
           {cartItems}
