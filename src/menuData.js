@@ -69,32 +69,32 @@ const menuData = [
     products: [
       {
         name: 'Quesadilla de suadero',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de chorizo',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de adobada',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de tripa',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de carnaza',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de cabeza',
-        description: 'Quesaddila hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
     ]
@@ -169,7 +169,7 @@ const menuData = [
       },
       {
         name: 'Agua',
-        description: 'Agua fresca de sabor (sabores).',
+        description: 'Agua fresca 600ml de sabor (arroz, fresa y lima).',
         price: 16
       },
     ],
