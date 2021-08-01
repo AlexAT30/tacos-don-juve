@@ -1,6 +1,6 @@
 import { Card, Button } from "react-bootstrap";
 
-const PromotionsInfo = ({ setProducts, name, description, price }) => {
+const PromotionsInfo = ({ name, description, price }) => {
   
   return (
     <div className='container-fluid'>
@@ -14,17 +14,8 @@ const PromotionsInfo = ({ setProducts, name, description, price }) => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <Button variant='primary' onClick={
-                () => {
-                  setProducts (old => [...old, [{
-                    name:`${name}`,
-                    amount: 1,
-                    price:`${price}`,
-                  }]]);
-                }
-              }>
-              <i className="bi bi-cart-plus me-2"></i>
-              Agregar a mi lista
+          <Button variant='primary'>
+          {`$${price}`}
           </Button>
         </Card.Footer>
       </Card>

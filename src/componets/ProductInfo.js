@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { Button, Card } from "react-bootstrap"
 
-const ProductInfo = ( {setProducts, name, description, price } ) => {
-  const [productsCount, setProductCount] = useState (0);
+const ProductInfo = ( { name, description, price } ) => {
 
   return (
     <div>
@@ -16,36 +14,9 @@ const ProductInfo = ( {setProducts, name, description, price } ) => {
           {description}
         </Card.Body>
         <Card.Footer className='text-end' >
-            <label>
-              Cantidad:
-              <input className='ms-1 me-3 mb-2' style={{width: '2rem', height: '1.5rem'}} type='number' min={1} max={100}
-              value={productsCount} onChange={(e)=>setProductCount(e.target.value)} />
-            </label>
-            {
-              productsCount > 0
-              ?
-              <Button variant='primary' onClick={
-                () => {
-                  setProducts (old => [...old, [{
-                    name:`${name}`,
-                    amount:`${productsCount}`,
-                    price:`${price * productsCount}`,
-                  }]]) 
-                }
-              }>
-                <i className="bi bi-cart-plus me-2"></i>
-                {`$${price * productsCount}`}
-              </Button>
-              :
-              <Button variant='primary' onClick={
-                () => {
-                  alert ('debes agregar al menos uno')
-                }
-              }>
-                <i className="bi bi-cart-plus me-2"></i>
-                {`$${price}`}
-              </Button>
-            }
+          <Button variant='primary'>
+            {`$${price}`}
+          </Button>
         </Card.Footer>
       </Card>
     </div>

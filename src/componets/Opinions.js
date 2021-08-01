@@ -10,21 +10,21 @@ const Opinions = () => {
   return (
     <div className='container-fluid text-center'>
       <Title title='Opiniones' id='opinions' />
-      <Carousel fade={true} controls={false} indicators={false} >
+      <Carousel className='mb-5' fade={true} controls={false} indicators={false} >
         <Carousel.Item>
-          <img src={opinion1} alt='opinion1' style={{width:'100%', height:'170px'}} />
+          <img src={opinion1} alt='opinion1' style={{width:'100%'}} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={opinion2} alt='opinion2' style={{width:'100%', height:'170px'}} />
+          <img src={opinion2} alt='opinion2' style={{width:'100%'}} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={opinion3} alt='opinion3' style={{width:'100%', height:'170px'}} />
+          <img src={opinion3} alt='opinion3' style={{width:'100%'}} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={opinion4} alt='opinion4' style={{width:'100%', height:'170px'}} />
+          <img src={opinion4} alt='opinion4' style={{width:'100%'}} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={opinion5} alt='opinion5' style={{width:'100%', height:'170px'}} />
+          <img src={opinion5} alt='opinion5' style={{width:'100%'}} />
         </Carousel.Item>
       </Carousel>
     </div>

@@ -2,7 +2,7 @@ const promotionData = [
     {
       name: 'Paquete Individual',
       description: '7 tacos a escoger y una bebida por solo $90.00',
-      price: 250
+      price: 90
     },
     {
       name: 'Paquete pareja',
@@ -17,12 +17,12 @@ const promotionData = [
     {
       name: 'Paquete familiar',
       description: '15 tacos a escoger, tres quesadillas y cuatro bebidas por solo $295.00',
-      price: 250
+      price: 295
     },
     {
       name: 'Paquete grande',
       description: '30 tacos a escoger y 2 refrescos de 2lto por $365.00',
-      price: 250
+      price: 365
     },
   ];
   export default promotionData;
