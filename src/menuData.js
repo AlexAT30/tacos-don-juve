@@ -35,7 +35,7 @@ const menuData = [
       {
         name: 'Taco de labio',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 16
       },
       {
         name: 'Taco de lengua',
@@ -169,8 +169,8 @@ const menuData = [
       },
       {
         name: 'Agua',
-        description: 'Agua fresca 600ml de sabor (arroz, fresa y lima).',
-        price: 16
+        description: 'Agua fresca de 1lto de sabor (arroz, fresa, limón y lima).',
+        price: 22
       },
     ],
   },
