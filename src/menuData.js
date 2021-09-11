@@ -5,32 +5,32 @@ const menuData = [
       {
         name: 'Taco de adobada',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de suadero',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de chorizo',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de tripa',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de cabeza',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de carnaza',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de labio',
@@ -45,22 +45,22 @@ const menuData = [
       {
         name: 'Taco de sesos',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de cuerno',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de ojo',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
       {
         name: 'Taco de paladar',
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 12
+        price: 13
       },
     ]
   },
