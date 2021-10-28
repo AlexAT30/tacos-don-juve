@@ -85,32 +85,32 @@ const menuData = [
       {
         name: 'Quesadilla de suadero',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de chorizo',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de adobada',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de tripa',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de carnaza',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de cabeza',
         description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
-        price: 28
+        price: 30
       },
       {
         name: 'Quesadilla de asada',
