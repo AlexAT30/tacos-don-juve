@@ -62,6 +62,21 @@ const menuData = [
         description: 'Taco con doble tortilla y carne picada; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 13
       },
+      {
+        name: 'Taco de asada',
+        description: 'Taco simple con carne picada; frijoles, guacamole, cebollitas y verdura. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 18
+      },
+      {
+        name: 'Taco de chorizo asado',
+        description: 'Taco simple con carne picada; frijoles, guacamole, cebollitas y verdura. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 18
+      },
+      {
+        name: 'Taco de arrachera',
+        description: 'Taco simple con carne picada; frijoles, guacamole, cebollitas y verdura. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 18
+      },
     ]
   },
   {
@@ -69,33 +84,48 @@ const menuData = [
     products: [
       {
         name: 'Quesadilla de suadero',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de chorizo',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de adobada',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de tripa',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de carnaza',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
       },
       {
         name: 'Quesadilla de cabeza',
-        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros Incluye salsa de su preferencia, limones y rabanos.',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
         price: 28
+      },
+      {
+        name: 'Quesadilla de asada',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas, guacamole y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 35
+      },
+      {
+        name: 'Quesadilla de chorizo asado',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas, guacamole y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 35
+      },
+      {
+        name: 'Quesadilla de arrachera',
+        description: 'Quesadilla hecha con una tortilla de harina, carne y queso mozzarella derretido; verdura, cebollitas, doraditas, guacamole y chiles güeros. Incluye salsa de su preferencia, limones y rabanos.',
+        price: 35
       },
     ]
   },
@@ -187,6 +217,37 @@ const menuData = [
         description: 'Orden de carne a escoger (adobada, suadero, chorizo, tripa, cabeza, carnaza, labio, sesos, cuerno, ojo y paladar); incluye tortillas, verdura, cebollitas, doraditas y chiles güeros, ademas de salsa de su preferencia, limones y rabanos.',
         price: 120
       },
+      {
+        name: 'Orden chica de asada, chorizo y arrachera',
+        description: 'Orden de carne a escoger; incluye 6 tortillas, verdura, cebollitas, doraditas y guacamole, ademas de salsa de su preferencia, limones y rabanos.',
+        price: 90
+      },
+      {
+        name: 'Orden grande de asada, chorizo y arrachera',
+        description: 'Orden de carne a escoger; incluye 8 tortillas, verdura, cebollitas, doraditas y guacamole, ademas de salsa de su preferencia, limones y rabanos.',
+        price: 110
+      },
+    ]
+  },
+  {
+    category: 'Papas rellenas',
+    products: [
+      {
+        name: 'Papa de asada',
+        description: 'Papa asada envuelta en aluminio con queso fundido, carne, salsa, frijoles, guacamole, cebollitas, rabanos, limones y verdura',
+        price: 80
+      },
+      {
+        name: 'Papa de chorizo',
+        description: 'Papa asada envuelta en aluminio con queso fundido, carne, salsa, frijoles, guacamole, cebollitas, rabanos, limones y verdura',
+        price: 80
+      },
+      {
+        name: 'Papa de arrachera',
+        description: 'Papa asada envuelta en aluminio con queso fundido, carne, salsa, frijoles, guacamole, cebollitas, rabanos, limones y verdura',
+        price: 80
+      },
+      
     ]
   },
 ]
